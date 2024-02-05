@@ -1,0 +1,132 @@
+.sidebar{
+    position: fixed;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    width: 200px;
+    flex-direction: column;
+}
+hr{
+    background-color: white;
+    width: 80%;
+}
+a{
+    text-decoration: none;
+    /* color: white; */
+}
+
+.sidebar::-webkit-scrollbar-track{
+    color: rgb(44, 44, 44);
+}
+.sidebar::-webkit-scrollbar-thumb{
+    color: rgb(78, 78, 78);
+}
+
+.sb-userinfo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 0.2;
+    color: white;
+    margin: 20px 0px;
+    padding: 0px 20px;
+    
+
+}
+
+.sb-notloggedin{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logodiv{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    width: 100%;
+    font-size: 1.7rem;
+    font-family: sans-serif;
+    font-weight: 700;
+    margin: 20px;
+}
+.logobackground{
+    margin: 0px 10px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(145,0,132);
+background: radial-gradient(circle, rgba(145,0,132,1) 0%, rgba(0,19,160,1) 100%);
+
+}
+
+.loginbuttons{
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.loginbuttons button{
+    margin: 0px 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-family: sans-serif;
+    font-weight: 700;
+
+    transition: all ease-in-out 0.5s;
+    cursor: pointer;
+}
+.login{
+    background-color: #360c96;
+    color: white;
+}
+.signup{
+    color: #360c96;
+    background-color: white;
+}
+
+.login:hover{
+    background-color: white;
+    color: #360c96;
+}
+.signup:hover{
+    background-color: #360c96;
+    color: white;
+}
+
+.sb-useraction{
+    display: flex;
+    flex: 0.8;
+    color: gray;
+    padding: 0px 20px;
+    flex-direction: column;
+}
+.navlink button{
+    background: none;
+    outline: none;
+    border: none;
+}
+.sb-actions{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 10px 0px;
+    cursor: pointer;
+    color: gray;
+}
+.ac-icon{
+    margin: 0px 10px;
+}
+.ac-text{
+    font-family: sans-serif;
+    font-size: 1rem;
+}
+.ac-active{
+    color: white;
+}

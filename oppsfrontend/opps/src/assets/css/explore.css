@@ -1,0 +1,10 @@
+.explore{
+    padding-left: 210px;
+    padding-right: 10px;
+    background: rgb(20, 20, 20);
+    width: 100vw;
+    min-height: 100vh;
+    color: white;
+    overflow-x: hidden;
+
+}

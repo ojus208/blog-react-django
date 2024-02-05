@@ -1,0 +1,37 @@
+.pns-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 250px;
+    padding: 10px;
+    margin: 0px 10px;
+    background: #9999991a;
+    border-radius: 10px;
+    height: 250px;
+}
+.pns-question{
+    font-size: 1rem;
+    font-weight: lighter;
+    margin: 5px 0px;
+}
+.pns-answer{
+    color: gray;
+    padding: 0px 5px;
+    background: #0000005e;
+    border-radius: 10px;
+    font-size: small;
+}
+.pns-answer p{
+    line-height: 20px;
+}
+.pns-answer button{
+    outline: none;
+    background: #360c96;
+    color: white;
+    font-size: small;
+    border-radius: 5px;
+    padding: 3px;
+    border: none;
+    cursor: pointer;
+}

@@ -1,0 +1,18 @@
+.carduserinfo{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+.uci-userdetail{
+    display: flex;
+    align-items: center;
+}
+.uci-userimg{
+    margin: 0px 5px
+}
+.uci-userimg img{
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+}
